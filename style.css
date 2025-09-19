@@ -19,3 +19,35 @@
     color: white;
     text-shadow: 5px 2px 5px rgba(33, 146, 118, 0.705);
 }
+
+.rodape {
+    background-color: rgb(17, 139, 44);
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 11px;
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.rodape a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+}
+.rodape-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div2 {
+    display: flex;
+    padding-left: 300;
+    padding-right: 500 ;
+}
+.rodape span {
+    color:aquamarine
+}
