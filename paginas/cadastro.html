@@ -1,0 +1,199 @@
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+
+      <link rel="icon" type="image/png" href="../icones/EACicon2.svg"/>
+    <title>cadastro EAC</title>
+
+  </head>
+  <body id="bodycadastro">
+    <header><img src="../imagens/CADASTRE-SE.png" alt="Banner-cadastre-se-EAC" width="1500" height="400" class="banner">
+    </header>
+    <br/>
+    <br/>
+    <nav>
+      <ul class="menu">
+        <li><a>Catálogo</a></li>
+        <li><a>Galeria</a></li>
+        <li><a href="./sobrenos.html" target="_blank">Sobre nós</a></li>
+        <li><a href="./cadastro.html">Cadastro</a></li>
+        <li><a href="#contatoAncora">Contato</a></li>
+      </ul>
+    </nav>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+  <form>
+    <fieldset>
+      <legend>Dados identificadores</legend>
+      <label>Nome: <input type="text"/></label>
+      <br />
+      <br />
+      <label>Sobrenome: <input type="text"/></label>
+      <br/>
+      <br/>
+      <label>Nome de usuário: <input type="text"/></label>
+      <br/>
+      <br/>
+      <label>CPF: <input type="text"/></label>
+      <br/>
+      <br/>
+      <p> estado civil:
+        <select>
+          <option></option>
+          <option value="Solteiro(a)">Solteiro(a)</option>
+          <option value="Casado(a)">Casado(a)</option>
+          <option value="Divorciado(a)">Divorciado(a)</option>
+          <option value="Viuvo(a)">Viuvo(a)</option>
+          <option value="Separado(a) judicialmente">Separado(a) judicialmente</option>
+        </select>
+      </p>
+      <br/>
+      <br/>
+      <label>Email<input type="email" name="email"/></label>
+      <br/>
+      <br/>
+      <label>Senha<input type="password" maxlength="20"/> <small>Até 20 caracteres</small></label>
+      <br/>
+      <br/>
+      <label>Telefone <input type="tel" maxlength="14" placeholder="99 999999999"/></label>
+      <br/>
+      <br/>
+      <label>Data de Nascimento: <input type="date" name="DataNascimento"/></label>
+      <br/>
+      <br/>
+      <p> Tipo Sanguíneo:
+        <br />
+        <input type="radio" name="Tipo Sanguíneo" value="A+"/> A+
+        <br />
+        <input type="radio" name="Tipo Sanguíneo" value="A-"/> A-
+        <br />
+        <input type="radio" name="Tipo Sanguíneo" value="B+"/> B+
+        <br />
+        <input type="radio" name="Tipo Sanguíneo" value="B-"/> B-
+        <br />
+        <input type="radio" name="Tipo Sanguíneo" value="AB+"/> AB+
+        <br />
+        <input type="radio" name="Tipo Sanguíneo" value="AB-"/> AB-
+        <br />
+        <input type="radio" name="Tipo Sanguíneo" value="O+"/> O+
+        <br />
+        <input type="radio" name="Tipo Sanguíneo" value="O-"/> O-
+        <br />
+      </fieldset>
+    </p>
+    <br/>
+    <fieldset>
+      <legend>Dados de endereço</legend>
+      <label>CEP: <input type="text"/></label>
+      <br/>
+      <br/>
+      <label>Rua/Endereço: <input type="text"/></label>
+      <br/>
+      <br/>
+      <label>Numero<input type="text"/></label>
+      <br/>
+      <br/>
+      <label>Complemento<input type="text"/></label>
+      <br/>
+      <br/>
+      <label>Bairro <input type="text"/></label>
+      <br/>
+      <br/>
+      <label>Cidade <input type="text"/></label>
+      <br/>
+      <br/>
+      <label>CPF: <input type="text"/></label>
+      <p>UF
+        <select id="estado-sigla" name="estado-sigla">
+          <option value="">Selecione a UF</option>
+          <option value="AC">AC</option>
+          <option value="AL">AL</option>
+          <option value="AP">AP</option>
+          <option value="AM">AM</option>
+          <option value="BA">BA</option>
+          <option value="CE">CE</option>
+          <option value="DF">DF</option>
+          <option value="ES">ES</option>
+          <option value="GO">GO</option>
+          <option value="MA">MA</option>
+          <option value="MT">MT</option>
+          <option value="MS">MS</option>
+          <option value="MG">MG</option>
+          <option value="PA">PA</option>
+          <option value="PB">PB</option>
+          <option value="PR">PR</option>
+          <option value="PE">PE</option>
+          <option value="PI">PI</option>
+          <option value="RJ">RJ</option>
+          <option value="RN">RN</option>
+          <option value="RS">RS</option>
+          <option value="RO">RO</option>
+          <option value="RR">RR</option>
+          <option value="SC">SC</option>
+          <option value="SP">SP</option>
+          <option value="SE">SE</option>
+          <option value="TO">TO</option>
+        </select>
+      </p>
+      <br/>
+      <br/>
+    </fieldset>
+    <br/>
+    <br/>
+    <fieldset>
+      <legend>Dados finais</legend>
+      <label>Como você nos conheceu?<textarea rows="3" cols="7">
+      </textarea></label>
+      <br/>
+      <br/>
+      <p><input type="checkbox" name="profissional-saude"/>
+        Sou profissional da área da saúde
+      </p>
+      <br/>
+      <p><input type="checkbox" name="termos-condicoes" required/>
+        Declaro que li e aceito os Termos de Condições
+      </p>
+      <br/>
+      <br/>
+    </fieldset>
+      <input type="reset" name="reset"/>
+      <input type="submit" name="submit"/>
+      <br/>
+      <br/>
+      <br/>
+      
+  </form>
+    
+    <footer class="rodape">
+  <div class="rodape-div">
+
+    <div class="rodape-div-1">
+    <div class="redes-sociais">
+        <span><h3>Redes Sociais</h3></span>
+        <a href="https://www.instagram.com " target="_blank"> <img src="../imagens/instagram.png" alt="logo do instagram" width="50px" height="50px"></a>
+        <a href="https://www.facebook.com " target="_blank"> <img src="../imagens/317727_facebook_social media_social_icon.png" alt="logo do facebook" width="50px" height="50px"></a>
+        <a href="https://www.x.com " target="_blank"> <img src="../imagens/xlogo.jpg" alt="logo do instagram" width="50px" height="50px"></a>
+
+    </div>
+    </div>
+
+    <div class="rodape-div2">
+      <div class="rodape-div2coluna">
+          <span><h3>Legal</h3></span>
+          <p><a href="#">Termos de serviço</a></p>
+          <p><a href="#">Contratos </a></p>
+          <p><a href="#">Uso de cookies</a></p>
+      </div>
+      </div>
+
+  </div>
+    <p class="rodape-direitos">Copyright DrogariaEAC&copy; 2025</p>
+</footer>
+  </body>
+  </html>
