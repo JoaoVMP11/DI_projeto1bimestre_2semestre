@@ -65,3 +65,11 @@
 .rodape span {
     color:aquamarine
 }
+
+#bodycadastro{
+    background-color: rgb(93, 255, 141);
+}
+
+form fieldset{
+    border: solid color(a98-rgb rgb(15, 1, 94) green blue);
+}
