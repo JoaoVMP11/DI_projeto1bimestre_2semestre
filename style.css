@@ -33,6 +33,7 @@
     text-shadow: 5px 2px 5px rgba(33, 146, 118, 0.705);
 }
 
+
 .rodape {
     background-color: rgb(17, 139, 44);
     color: white;
@@ -42,7 +43,6 @@
     font-family: "Epunda Slab", serif;
     font-optical-sizing: auto;
     font-style: normal;
-
 }
 .rodape a {
     text-decoration: none;
@@ -72,4 +72,30 @@
 
 form fieldset{
     border: solid color(a98-rgb rgb(15, 1, 94) green blue);
+}
+#bodygaleria{
+    background-color: rgb(200, 248, 190);
+}
+.titulosecao{
+    text-align: center;
+}
+.galeria-produtos{
+    list-style: none;
+
+}
+.galeria-produtos img{
+    width: 300px;
+    height: 200px;
+}
+.galeria-servicos{
+    list-style: none;
+
+}
+.galeria-servicos img{
+    width: 300px;
+    height: 200px;
+}
+.rodape img{
+    width: 50px;
+    height: 50px;
 }
