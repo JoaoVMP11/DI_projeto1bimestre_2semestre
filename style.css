@@ -1,5 +1,9 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Lato:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 #bodyindex{
     background-color: rgba(90, 231, 172, 0.781);
+    font-family: Lato;
 }
 .banner{
     display: block;
@@ -12,6 +16,8 @@
     list-style: none;
     border: 2px solid rgb(rgb(49, 209, 169), green, blue);
     float: left;
+    font-family: Merriweather;
+    font-size: larger;
  
 
 }
@@ -40,7 +46,7 @@
     height: auto;
     width: 100%;
     font-size: 13px;
-    font-family: "Epunda Slab", serif;
+    font-family: Raleway;
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -63,18 +69,29 @@
     padding-right: 500 ;
 }
 .rodape span {
-    color:aquamarine
+    color:rgb(196, 255, 172)
 }
 
 #bodycadastro{
     background-color: rgb(93, 255, 141);
+    font-family: "Lato";
 }
 
 form fieldset{
-    border: solid color(a98-rgb rgb(15, 1, 94) green blue);
+    border: solid rgb(52, 9, 133);
+    background-color: rgb(194, 252, 182);
+    padding-top: 50px;
+    margin-top: -15px;
+}
+.titulofieldset{
+    font-family: "IBM Plex Sans";
+    font-size: larger;
+    font-style: bold;
+
 }
 #bodygaleria{
     background-color: rgb(200, 248, 190);
+    font-family: "Lato";
 }
 .titulosecao{
     text-align: center;
@@ -101,6 +118,9 @@ form fieldset{
 }
 #bodysobrenos{
     background-color: rgb(19, 122, 33);
+    font-family: "Lora";
+    font-style: normal;
+    font-size: medium;
 }
 .titulohistoria{
     text-align: center;
@@ -178,4 +198,5 @@ form fieldset{
 
 #bodycatalogo{
     background-color: rgba(111, 245, 70, 0.781);
+    font-family: "Lato";
 }
