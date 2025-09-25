@@ -126,3 +126,56 @@ form fieldset{
     margin-top: 35px;
 
 }
+.listamedicamentos,.listasuplementos,.listacuidados {
+    list-style: none;
+    padding: 0;      
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+
+.medicamento,.suplemento,.cuidado,.item-produtos {
+    display: flex; 
+    align-items: center;
+    padding: 25px;
+
+
+}
+
+.medicamento img,.suplemento img,.cuidado video, .item-produtos img { 
+    max-width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0;
+}
+
+
+.infomedicamento,.infosuplemento,.infocuidado {
+    flex-grow: 1;
+}
+
+.infomedicamento h2,.infosuplemento h2,.infocuidado h2 {
+    font-size: 1.5em;
+    color: #2e7d32; 
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.infomedicamento p,.infosuplemento p,.infocuidado p {
+    margin-bottom: 0;
+}
+
+
+ .medicamento, .suplemento, .cuidado, .item-produtos {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+}
+
+    .medicamento img, .suplemento img, .cuidado video,  .item-produtos img {
+        margin: 0 auto 20px auto;
+}
+
+#bodycatalogo{
+    background-color: rgba(111, 245, 70, 0.781);
+}
